@@ -6,7 +6,6 @@ package observer.base;
  * @Description 具体的观察者
  */
 public class ConcreteObserver implements Observor {
-
     @Override
     public void update() {
         System.out.println("具体观察者: 接受到信息，并进行处理");

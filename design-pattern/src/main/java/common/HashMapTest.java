@@ -21,18 +21,18 @@ public class HashMapTest {
     }
 
     public static void main(String[] args) {
-        Long l = getNum();
-        Long ll = 124L;
-        if (l.equals(ll)){
-            System.out.println("true");
-        }
-        System.out.println("false");
+//        Long l = getNum();
+//        Long ll = 124L;
+//        if (l.equals(ll)){
+//            System.out.println("true");
+//        }
+//        System.out.println("false");
 //        test();
 
 //        String str = "1280";
 //        System.out.println(toHexString(str));
 
-//        test11();
+        test111();
     }
 
 
@@ -59,6 +59,15 @@ public class HashMapTest {
         System.out.println(map);
         Set<String> set = map.keySet();
         System.out.println(set);
+    }
+
+
+    public static void test111(){
+        Map<Integer, Integer> groupMap = new HashMap<>();
+        groupMap.put(2,1);
+        int num = groupMap.get(1);
+        groupMap.put(1,num + 1);
+        System.out.println(groupMap);
     }
 
 //    public static void test2() {
